@@ -29,7 +29,7 @@
  */
 package org.pushingpixels.flamingo.api.common.model;
 
-import javafx.scene.control.TextFormatter;
+//import javafx.scene.control.TextFormatter;
 import org.pushingpixels.flamingo.internal.utils.WeakChangeSupport;
 
 import javax.swing.event.ChangeEvent;

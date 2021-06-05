@@ -133,7 +133,7 @@ public class SubstanceTextUtilities {
 
         // Important - it appears that there's a bug in OpenJDK where the FontMetrics reports
         // ascent=0 after applying an AffineTransform. This is why the computation of offsets is
-        // done before applying the transform ¯\_(ツ)_/¯
+        // done before applying the transform
         int dx = textRect.x;
         int dy = textRect.y + g2d.getFontMetrics().getAscent();
 

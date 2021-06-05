@@ -285,7 +285,7 @@ abstract class SvgBaseTranscoder {
 //                + languageRenderer.getStatementEnd());
         for (; !pathIterator.isDone(); pathIterator.next()) {
             // Check in - this is needed for extreme cases for paths that have thousands of segments.
-            // Probably the resulting class will run into "error: too many constants" in any case ¯\_(ツ)_/¯
+            // Probably the resulting class will run into "error: too many constants" in any case
             printWriterManager.checkin();
             int type = pathIterator.currentSegment(coords);
             switch (type) {
